@@ -5,11 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Burger</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header id="site_header">
+        <h1>Create your Burger</h1>
+    </header>
+    <!-- /#site_header -->
+
+    <main id="site_main">
+        <input type="text" id="burger" name="burger" placeholder="Name your Burger" class="burger_name">
+        <h3>Ingredients</h3>
+        <div class="form_group">
+            <img src="./assets/img/cheese.svg" alt="cheese_icon" class="icons">
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" id="cheese" name="cheese">
+        </div>
+        <div class="form_group">
+            <img src="./assets/img/fried-egg.svg" alt="friedegg_icon" class="icons">
+            <label for="eggs">Fried Egg</label>
+            <input type="checkbox" id="eggs" name="eggs">
+        </div>
+        <div class="form_group">
+            <img src="./assets/img/mustard.svg" alt="mustard_icon" class="icons">
+            <label for="mustard">Mustard</label>
+            <input type="checkbox" id="mustard" name="mustard">
+        </div>
+        <div class="form_group">
+            <img src="./assets/img/tomato.svg" alt="tomato_icon" class="icons">
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" id="tomato" name="tomato">
+        </div>
+        <div class="form_group">
+            <img src="./assets/img/lettuce.svg" alt="lettuce_icon" class="icons">
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" id="lettuce" name="lettuce">
+        </div>
+        <div class="form_group">
+            <img src="./assets/img/ketchup.svg" alt="ketchup_icon" class="icons">
+            <label for="ketchup">Ketchup</label>
+            <input type="checkbox" id="ketchup" name="ketchup">
+        </div><br>
+        <!-- /.form_group -->
+        <div class="discount">
+            <label for="discount">Discount coupon:</label>
+            <input type="text" id="discount" name="discount" placeholder="12354ABCDEF">
+        </div>
+        <div class="button">
+            <button>Calculate</button>
+        </div>
+    </main>
+    <!-- /#site_main -->
+
+    <footer id="site_footer">
+        
+    </footer>
+    <!-- /#site_footer -->
     
-    
+
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

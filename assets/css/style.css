@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vh;
+}
+
+.burger_name{
+    width: 500px;
+    height: 40px;
+    border: none;
+    font-size: large;
+}
+.icons{
+    width: 30px;
+    height: auto;
+}
