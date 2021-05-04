@@ -7,7 +7,12 @@
 body{
     width: 100vh;
 }
-
+/* HEADER */
+#site_header{
+    height: 200px;
+    background-color:#fdbb40;
+}
+/* MAIN */
 .burger_name{
     width: 500px;
     height: 40px;
@@ -20,4 +25,10 @@ body{
 }
 .discount_length{
     width: 500px;
+}
+
+/* FOOTER */
+#site_footer{
+    height: 150px;
+    background-color: #d33359;
 }
